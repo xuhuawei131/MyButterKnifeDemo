@@ -1,4 +1,4 @@
-package com.xuhuawei.compiler.utils;
+package com.xuhuawei.compiler.handler;
 
 import com.xuhuawei.compiler.annotation.ViewInjector;
 import com.xuhuawei.compiler.handler.BaseHandler;
