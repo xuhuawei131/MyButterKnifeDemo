@@ -1,7 +1,7 @@
 package com.xuhuawei.compiler.writer;
 
-import com.xuhuawei.compiler.annotation.ViewInjector;
 import com.xuhuawei.compiler.bean.InjectInfo;
+import com.xuhuawei.annotation.ViewInjector;
 
 import java.io.IOException;
 import java.io.Writer;
@@ -27,7 +27,7 @@ public class DefaultWriterApt extends AptAbstractWriter {
     protected void generateImport(Writer writer, InjectInfo info) throws IOException{
         writer.write("package "+info.packageName +";");
         writer.write("\n\n");
-        writer.write("import com.xuhuawei.compiler.ViewInjectorInterface;");
+        writer.write("import com.xuhuawei.aptapi.ViewInjectorInterface;");
         writer.write("\n");
         writer.write("import com.xuhuawei.aptapi.ViewFinder;");
         writer.write("\n\n\n");
@@ -36,7 +36,7 @@ public class DefaultWriterApt extends AptAbstractWriter {
         writer.write("public class "+info.newClassName+" implements ViewInjectorInterface<"+info.className+"> { ");
         writer.write("\n");
         writer.write("\n");
-        writer.write("public void injects("+info.className+" target)  {");
+        writer.write("public void inject("+info.className+" target)  {");
         writer.write("\n");
     }
 

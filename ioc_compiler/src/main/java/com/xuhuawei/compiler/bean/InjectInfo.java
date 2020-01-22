@@ -1,6 +1,7 @@
 package com.xuhuawei.compiler.bean;
 
-import com.xuhuawei.compiler.config.AnnotationConfig;
+
+import com.xuhuawei.annotation.config.AnnotationConfig;
 
 public class InjectInfo {
     //宿主类的包名

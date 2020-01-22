@@ -2,8 +2,8 @@ package com.xuhuawei.aptapi;
 
 import android.app.Activity;
 
-import com.xuhuawei.compiler.ViewInjectorInterface;
-import com.xuhuawei.compiler.config.AnnotationConfig;
+import com.xuhuawei.annotation.config.AnnotationConfig;
+
 
 public class HuaweiKnife {
 

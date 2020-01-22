@@ -1,4 +1,4 @@
-package com.xuhuawei.compiler.annotation;
+package com.xuhuawei.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

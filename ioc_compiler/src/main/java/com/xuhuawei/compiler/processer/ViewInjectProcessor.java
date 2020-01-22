@@ -1,10 +1,10 @@
 package com.xuhuawei.compiler.processer;
 
 import com.google.auto.service.AutoService;
-import com.xuhuawei.compiler.annotation.ViewInjector;
 import com.xuhuawei.compiler.handler.AnnotationHandler;
 import com.xuhuawei.compiler.writer.AptAbstractWriter;
 import com.xuhuawei.compiler.writer.DefaultWriterApt;
+import com.xuhuawei.annotation.ViewInjector;
 
 import java.util.HashSet;
 import java.util.List;

@@ -1,2 +1,2 @@
-include ':app', ':ioc_compiler', ':aptapi'
+include ':app', ':ioc_compiler', ':aptapi', ':ioc_annotation'
 rootProject.name='MyButterKnifeDemo'

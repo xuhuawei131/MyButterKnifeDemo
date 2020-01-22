@@ -7,12 +7,12 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.xuhuawei.aptapi.HuaweiKnife;
-import com.xuhuawei.compiler.annotation.ViewInjector;
+import com.xuhuawei.annotation.ViewInjector;
 
 public class MainActivity extends AppCompatActivity {
 
     @ViewInjector(R.id.text_content)
-    private TextView text_content;
+    public TextView text_content;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

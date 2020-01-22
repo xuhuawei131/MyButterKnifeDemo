@@ -23,6 +23,7 @@ public abstract class AptAbstractWriter implements AdapterWriter {
 
     public AptAbstractWriter(ProcessingEnvironment mProcessingEnv) {
         this.mProcessingEnv = mProcessingEnv;
+        mFiler=mProcessingEnv.getFiler();
     }
 
     public void generate(Map<String, List<VariableElement>> map) {

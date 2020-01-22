@@ -1,7 +1,7 @@
 package com.xuhuawei.compiler.handler;
 
-import com.xuhuawei.compiler.annotation.ViewInjector;
-import com.xuhuawei.compiler.handler.BaseHandler;
+
+import com.xuhuawei.annotation.ViewInjector;
 
 import java.util.ArrayList;
 import java.util.HashMap;
